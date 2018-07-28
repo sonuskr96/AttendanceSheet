@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/logitem"
+        android:title="LogIn">Take Attendance</item>
+    <item android:id="@+id/admin_m"
+        android:title="Admin">admin</item>
+    <item android:id="@+id/about_m"
+        android:title="About">about</item>
+</menu>

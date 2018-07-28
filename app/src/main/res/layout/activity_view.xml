@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/vlayout"
+    android:padding="5sp"
+    tools:context="com.example.sonuroy.attendancesheet.ViewActivity">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:text="hi, This app is created to take attendence of students. This app provide ease to teachers in taking attendence.Develping and disigning of this app is done by SONU. I am showing use of this:
+1. Resister page
+2. LogIn
+3. Menu page
+4. Course page
+5. Student Info
+6. Select page
+7. Attendence Sheet"
+        android:focusable="false"/>
+
+
+</RelativeLayout>

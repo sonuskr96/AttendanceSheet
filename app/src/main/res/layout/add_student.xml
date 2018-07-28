@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding ="10sp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fefew"
+        android:text="ADD STUDENT INFO"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:focusableInTouchMode="true"
+                android:id="@+id/relativeLayout"
+                android:layout_below="@+id/fefew"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TableRow>
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nname"
+        android:textSize="25sp" />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/e_g_sonu"
+            android:textSize="25sp"
+            android:inputType="text" />
+</TableRow>
+<TableRow>
+    <TextView
+        android:id="@+id/text_roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll     :"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/e_g_11501193"
+        android:textSize="25sp"/>
+</TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/id_ssg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ssg_id:"
+            android:textSize="25sp"
+            />
+        <EditText
+            android:id="@+id/sssg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="e.g- 101"
+            android:textSize="25sp"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:onClick="onAddStudentClicked"
+            android:text="@string/add"
+            android:textSize="25sp" />
+    </TableRow>
+</TableLayout>
+            </RelativeLayout>
+</TableLayout>
+    </ScrollView>
+</RelativeLayout>

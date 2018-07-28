@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5sp"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.sonuroy.attendancesheet.CourseActivity">
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableRow>
+        <TextView
+            android:id="@+id/sem_group_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="sem_group:  "
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/esem_group_id"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:hint="e.g:- 5cse_5   "
+            android:textSize="20sp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/sub_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="subject       :"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/esub_id"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:hint="e.g:- dbms   "
+            android:textSize="20sp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/ssg_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="ssg_id        :"
+            android:textSize="21sp"/>
+        <EditText
+            android:id="@+id/essg_id"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:text=""
+            android:hint="e.g:- 101  "
+            android:textSize="20sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20sp">
+        <Button
+            android:id="@+id/submit_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="submit"
+            android:onClick="onSubmit"
+            android:textSize="20sp"/>
+    </TableRow>
+</TableLayout>
+</RelativeLayout>

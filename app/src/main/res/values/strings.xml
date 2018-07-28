@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AttendanceSheet</string>
+    <string name="show_password">show password</string>
+    <string name="if_not_registered">if not registered</string>
+    <string name="login">login</string>
+    <string name="name">name</string>
+    <string name="or_login_here">or login here</string>
+    <string name="password">password</string>
+    <string name="register">register</string>
+    <string name="roll">Roll</string>
+    <string name="eclass">class</string>
+    <string name="ename">name</string>
+    <string name="sem">sem</string>
+    <string name="add">Add</string>
+    <string name="cclass">Class :</string>
+    <string name="nname">Name :</string>
+    <string name="rroll">Roll   :</string>
+    <string name="ssem">Sem :</string>
+    <string name="student_s_data">Student\'s Data</string>
+    <string name="e_g_11501193">e.g- 11501193</string>
+    <string name="e_g_4">e.g- 4</string>
+    <string name="e_g_c5">e.g- c5</string>
+    <string name="e_g_sonu">e.g- sonu</string>
+    <string name="teacher_s_register_page">Teacher\'s Register Page</string>
+    <string name="id">id</string>
+    <string name="hello_world_splash">Hello World, splash</string>
+</resources>
